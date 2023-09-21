@@ -2,4 +2,4 @@ plotly
 matplotlib
 seaborn
 panel
-pyreadstat=1.2.3
+pyreadstat==1.2.3
