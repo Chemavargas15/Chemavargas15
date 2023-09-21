@@ -16,6 +16,7 @@ with st.sidebar:
     st.image(image_path, caption="Mi Imagen", use_column_width=True)
     st.header('Resultados Encuestas Nacionales  delivery Bolivia 2023') 
     st.markdown('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet ante a risus fermentum malesuada luctus sed ante. Vestibulum bibendum dui ac diam feugiat, iaculis pretium massa faucibus. Nullam molestie convallis nisi ut gravida. Sed sed consequat purus, a fringilla tellus. Nunc sed pulvinar nisl. Curabitur lorem ex, facilisis a imperdiet dignissim, aliquam a mauris. Praesent blandit feugiat quam vitae tincidunt. Sed sem dui, consequat vel pharetra a, lobortis nec ex. Quisque dignissim pulvinar felis, auctor consectetur sem semper in. Ut congue dolor ac lorem venenatis, sed iaculis odio scelerisque. Fusce sodales eu metus vitae lacinia. Nam placerat vel mauris a scelerisque.')
+df2=pd.read_csv('penguins_v1.csv')
 df = pd.read_spss("/workspaces/Chemavargas15/BaseFinal.sav")
 column_headers = list(df.columns.values)
 def P(p20a):
